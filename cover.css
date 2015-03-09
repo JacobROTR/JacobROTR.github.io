@@ -178,17 +178,17 @@ body {
     background-color: #BFB699;
 }
 
-/* Links */
-.table > a:visited {
+/* Table Links */
+.table > tbody > tr > th > a:visited {
     color:#dddddd; 
 }
 
-.table > a:hover   {
+.table > tbody > tr > th > a:hover   {
     color:#ffffff !important; 
     text-decoration: none;
 }
 
-.table > a:link {
+.table > tbody > tr > th > a:link {
     color:#ffffff; 
     text-decoration: underline;
 }
