@@ -161,3 +161,19 @@ body {
     width: 700px;
   }
 }
+
+/* Custom table colors */
+.table > thead > tr > td,
+.table > thead > tr > th {
+    background-color: #AF9C66;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, 
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #D4CAAA;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td, 
+.table-striped > tbody > tr:nth-child(2n) > th {
+    background-color: #BFB699;
+}
