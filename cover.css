@@ -185,7 +185,7 @@ body {
 
 .table > tbody > tr > th > a:hover   {
     color:#ffffff !important; 
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .table > tbody > tr > th > a:link {
