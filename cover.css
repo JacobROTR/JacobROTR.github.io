@@ -180,14 +180,14 @@ body {
 
 /* Links */
 a:visited {
-    color:#999999; 
+    color:#bbbbbb; 
 }
 
 a:hover   {
     color:#ffffff !important; 
-    text-decoration: underline;
 }
 
 a:link {
     color:#ffffff; 
+    text-decoration: underline;
 }
