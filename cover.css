@@ -179,16 +179,16 @@ body {
 }
 
 /* Links */
-a:visited {
-    color:#bbbbbb; 
+.table > a:visited {
+    color:#dddddd; 
 }
 
-a:hover   {
+.table > a:hover   {
     color:#ffffff !important; 
     text-decoration: none;
 }
 
-a:link {
+.table > a:link {
     color:#ffffff; 
     text-decoration: underline;
 }
