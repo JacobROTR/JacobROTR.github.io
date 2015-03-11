@@ -30,18 +30,7 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><a href="../">Sandpoint</a></li>
-                  <li class="active"><a href="/shop1">[5] Juveler</a></li>
-                  <li><a href="/shop2">[12] Savahs Smedje</a></li>
-                  <li><a href="/shop3">[44] Den Fjerede Slange</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+          <!--#include file="navbar.html" -->
 
           <div class="inner cover">
           	<table class="table table-striped .table-bordered">
@@ -129,5 +118,15 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript">     
+      $(document).ready(function(){ 
+
+        $( "li" ).each(function() {
+          $( this ).removeClass("active");
+        });
+        
+        $("#shop1").addClass("active");
+      }) 
+    </script>
   </body>
 </html>
