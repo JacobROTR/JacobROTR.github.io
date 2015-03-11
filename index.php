@@ -30,7 +30,7 @@
 
         <div class="cover-container">
 
-          <!--#include file="navbar.html" -->
+          <?php require("navbar.php"); ?>
 
           <div class="inner cover">
           	<div id="home">
