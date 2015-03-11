@@ -21,9 +21,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script> 
+     <script> 
       $(function(){
-        $("#navbar").load("navbar.html"); 
+        $("#navbar").load("navbar.html",function(){
+          $( "li" ).each(function() {
+            $(this).removeClass("active");
+          });
+          $("#shop2").addClass('active');
+        }); 
       });
     </script>  
   </head>

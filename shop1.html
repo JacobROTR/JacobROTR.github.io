@@ -23,7 +23,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script> 
       $(function(){
-        $("#navbar").load("navbar.html"); 
+        $("#navbar").load("navbar.html",function(){
+          $( "li" ).each(function() {
+            $(this).removeClass("active");
+          });
+          $("#shop1").addClass('active');
+        }); 
       });
     </script>  
   </head>
