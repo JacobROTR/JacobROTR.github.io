@@ -23,8 +23,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script> 
       $(function(){
-        $("#navbar").load("navbar.html"); 
-        $("#shop3").addClass('active'); 
+        $("#navbar").load("navbar.html",function(){
+          $("#shop3").addClass('active');
+        }); 
       });
     </script>  
   </head>
