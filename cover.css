@@ -81,6 +81,14 @@ body {
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
+  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 0px #000000;
+  text-shadow: 0px 1px #000000;
+  text-shadow: -1px 1px #000000;
+  text-shadow: -1px 0px #000000;
+  text-shadow: -1px -1px #000000;
+  text-shadow: 0px -1px #000000;
+  text-shadow: 1px -1px #000000;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
