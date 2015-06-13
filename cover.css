@@ -208,3 +208,14 @@ body {
     color:#ffffff; 
     text-decoration: underline;
 }
+
+.table {
+    text-shadow: 1px 1px #000000,
+               1px 0px #000000,
+                0px 1px #000000,
+                -1px 1px #000000,
+                -1px 0px #000000,
+                -1px -1px #000000,
+                0px -1px #000000,
+                1px -1px #000000;
+}
