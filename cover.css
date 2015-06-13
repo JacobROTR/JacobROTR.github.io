@@ -196,16 +196,16 @@ body {
 
 /* Table Links */
 .table > tbody > tr > th > a:visited {
-    color:#eeeeee; 
+    color:#111; 
 }
 
 .table > tbody > tr > th > a:hover   {
-    color:#ffffff !important; 
+    color:#000 !important; 
     text-decoration: none !important;
 }
 
 .table > tbody > tr > th > a:link {
-    color:#ffffff; 
+    color:#000; 
     text-decoration: underline;
 }
 
