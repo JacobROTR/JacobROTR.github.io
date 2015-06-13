@@ -210,12 +210,13 @@ body {
 }
 
 .table {
-    text-shadow: 1px 1px #000000,
-               1px 0px #000000,
-                0px 1px #000000,
-                -1px 1px #000000,
-                -1px 0px #000000,
-                -1px -1px #000000,
-                0px -1px #000000,
-                1px -1px #000000;
+    text-shadow: 1px 1px #fff,
+               1px 0px #fff,
+                0px 1px #fff,
+                -1px 1px #fff,
+                -1px 0px #fff,
+                -1px -1px #fff,
+                0px -1px #fff,
+                1px -1px #fff;
+    color: #000;
 }
